@@ -1,3 +1,4 @@
+/*
 function groupAnagrams(strs) {
     let anagramGroup = new Map()
     
@@ -31,18 +32,20 @@ const map = new Map([
 console.log(map)
 // Convert the values of the map to an array
 console.log(Array.from(map.values()));
+*/
 
-/*
 function groupAnagrams(strs) {
     let anagramGroup = new Map();
     
     for (let str of strs) {
         let freq = Array(26).fill(0);
+        console.log(freq)
         for (let char of str) {
             freq[char.charCodeAt(0) - 'a'.charCodeAt(0)]++;
         }
         
         let key = freq.join('#');
+        console.log(key)
         
         if (!anagramGroup.has(key)) {
             anagramGroup.set(key, []);
@@ -55,5 +58,3 @@ function groupAnagrams(strs) {
 
 let strs = ["eat","tea","tan","ate","nat","bat"];
 console.log(groupAnagrams(strs));
-
-*/
