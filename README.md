@@ -13,7 +13,7 @@ This repository contains solutions to various LeetCode problems, organized by to
 
 ## Goals
 - Solve one LeetCode problem every day.
-- Provide clean, efficient, and well-documented code.n
+- Provide clean, efficient, and well-documented code.
 - Write explanations or comments that describe the thought process behind each solution.
 
 ## Directory Structure
@@ -29,7 +29,7 @@ You can try solving the problem on your own before looking at the solution. Comp
 ### Cloning the Repository
 To clone the repository, use the following command:
    ```sh
-   git clone https://github.com/yourusername/leetcode-solutions.git
+   git clone https://github.com/javy99/leetcode-solutions.git
    ```
 
 ## Languages Used
