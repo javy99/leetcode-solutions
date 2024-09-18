@@ -28,7 +28,7 @@ function maxArea(heights) {
  * @returns {number} maxArea
  */
 function maxArea(heights) {
-    let p1 = 0, p2 = heights.length - 1;
+    let p1 = 0, p2 = heights.length - 1, maxArea = 0;
 
     while (p1 < p2) {
         const height = Math.min(heights[p1], heights[p2]);
