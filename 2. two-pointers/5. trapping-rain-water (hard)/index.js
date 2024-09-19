@@ -19,7 +19,7 @@ function getTrappedRainWater(heights) {
             total += leftMax - heights[left];
             left++;
         } else {
-            maxArea += rightMax - heights[right];
+            total += rightMax - heights[right];
             right--;
         }
     }
